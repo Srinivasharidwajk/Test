@@ -1,0 +1,13 @@
+useEffect() -> lifecycle Methods
+
+componentDidMount() -> when the component is fully loaded on DOM
+componentWillUpdate() -> for update of component
+componentWillUnmount() -> when the component is removed on DOM
+
+
+useEffect(() => {
+	// component Did Mount
+	return () => {
+		// componentWillUnmount
+	}
+}, [// componentWillUpdate]);
